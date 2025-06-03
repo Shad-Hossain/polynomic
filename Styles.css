@@ -1,0 +1,424 @@
+
+body{
+	
+	
+	background-color: #0d0d0d;
+		color: #e5c07b;
+}
+           
+      /*header*/
+#heading{
+	background-image: url(Logo.png);
+	background-repeat: none;
+	background-size:cover;
+	background-position: center;
+	padding-top:0%;
+	transform: scale(1.2);
+	animation: zoomInOnce 3s ease-in-out forwards;
+}
+@keyframes zoomInOnce {
+	0% {
+		transform: scale(1.2);
+		/* zoomed out */
+	}
+
+	100% {
+		transform: scale(1);
+		/* zooms in smoothly */
+	}    }
+#div1{
+	font-size: 1rem;
+	color: #F7E7CE;
+	text-shadow: 2px 2px 4px #000000;
+	font-weight: bold;
+	opacity: 0;
+	transform: translateY(20px);
+	animation: fadeInUp 3.5s ease-out both;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top:150px;
+	}
+	
+	@keyframes fadeInUp {
+		from {
+				opacity: 0;
+				transform: translateY(100px);
+			}
+		to {
+			opacity: 500;
+			transform: translateX(0);
+		}
+	}
+#nav1{
+	text-align: right;
+	padding-top:2.5%;
+	padding-right:2%;
+	word-spacing: 3cap;
+}
+.home{
+	color:blanchedalmond;
+	font-size: x-large;
+	text-decoration: none;
+}
+.About{
+	color: blanchedalmond;
+	font-size: x-large;
+	text-decoration: none;
+}
+.Services{
+	color: blanchedalmond;
+	font-size: x-large;
+	text-decoration: none;
+}
+.Pricing{
+	color: blanchedalmond;
+	font-size: x-large;
+	text-decoration: none;
+}
+.Appointment{
+	color: blanchedalmond;
+	font-size: x-large;
+	text-decoration: none;
+}
+#h1{
+	font-size: 500%;
+}
+#h2{
+	font-size:200%;
+}
+@media screen and (max-width:576px) {
+	
+	#heading{
+		
+		background-image: url(Logo.png);
+		background-size:contain;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-bottom:.2%;
+		
+	}
+		#div1 {
+			font-size: .45rem;
+			color: #F7E7CE;
+			text-shadow: 2px 2px 4px #000000;
+			font-weight: bold;
+			opacity: 0;
+			transform: translateY(20px);
+			animation: fadeInUp 3.5s ease-out both;
+			text-align: center;
+			padding-top:270px;
+			padding-bottom:20%;
+			
+		}
+	
+		@keyframes fadeInUp {
+			from {
+				opacity: 0;
+				transform: translateY(100px);
+			}
+	
+			to {
+				opacity: 500;
+				transform: translateX(0);
+			}}
+	
+	
+	#nav1{
+		display:flex;
+		justify-content:center;
+		align-items: center;
+		text-align:center;
+		flex-direction: row;
+		justify-content: space-evenly;
+		font-size:small;
+	}
+	
+	
+}
+
+/*ABOUT*/
+#div2{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 4px 4px 4px;
+	word-spacing: .5cap;
+}
+#abouth1{
+	font-size:3rem;
+	padding-top:25px;
+	padding-bottom:1px;
+}
+#aboutp{
+	font-size:1.5rem;
+	width:950px;
+	text-align:center;
+	padding-bottom:10px;
+	
+}
+#aboutbutton{
+	
+	color: rgb(255, 255, 255);
+		background-color: rgba(0, 0, 0, 0);
+		border-radius: 20%;
+		border-color: aliceblue;
+		border-style: hidden;
+		font-size: x-large;
+		padding-bottom:2%;
+		padding-top:0;
+}
+
+@media screen and (max-width:576px){
+	#div2 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	#aboutp {
+	   		font-size: 1.5rem;
+			width: 90%;
+			text-align: center;
+			
+		}
+}
+
+
+/*Aboput page*/
+
+#aboutheading {
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	transform: scale(1.2);
+	animation: zoomInOnce 3s ease-in-out forwards;
+}
+#aboutnavdiv{
+		text-align: right;
+		padding-right: 2%;
+		word-spacing: 1.5cap;
+		padding-top:2%;
+}
+
+@keyframes zoomInOnce {
+	0% {
+		transform: scale(1.2);
+		/* zoomed out */
+	}
+
+	100% {
+		transform: scale(1);
+		/* zooms in smoothly */
+	}
+}
+
+#aboutpagediv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:2%;
+}
+
+
+#aboutpageh1{
+	font-size:3.5rem;
+	
+}
+#aboutpageh2 {
+	font-size: 3.5rem;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+#aboutpagep1 {
+	font-size: 2rem;
+	width: 900px;
+	padding-bottom: 5%;
+	line-height: 150%;
+}
+#missiondiv{
+	display: flex;
+	width: 946px;
+	height: 500px;		
+	flex-direction: row;
+	
+	
+}
+#missionimage{
+	float:left;
+	padding-left:6%;
+	padding-right:15%;
+	padding-top:4.5%;
+}
+
+#aboutpageh3 {
+	font-size: 3.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+#vissiondiv {
+	display: flex;
+	width: 946px;
+	height: 500px;
+	flex-direction: row;
+
+
+}
+
+#vissionimage {
+	float: left;
+	padding-left: 6%;
+	padding-right: 15%;
+	padding-top: 4.5%;
+}
+#aboutpageh4 {
+	font-size: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#aboutpagep2 {
+	font-size: 2rem;
+	width: 900px;
+	padding-bottom: 5%;
+	padding-top: 0.2em;
+	line-height: 150%;
+}
+#aboutpagep3 {
+	font-size: 2rem;
+	width: 900px;
+	padding-bottom: 5%;
+	padding-top: 0.2em;
+	line-height: 150%;
+}
+#aboutpagep4 {
+	display:flex;
+	justify-items: center;
+	text-align:center;
+	align-items:center;
+	font-size:2rem;
+	width:800px;
+}
+#aboutdiv3{
+	display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 4px 4px 4px 4px;
+		word-spacing: .5cap;
+}
+
+@media screen and (max-width:576px){
+	#aboutnavdiv{
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-direction: row;
+		justify-content: space-evenly;
+		font-size: small;
+		word-spacing:2em;
+		padding-top:3cap;
+			}
+			
+		#aboutpageh1{
+			font-size: 2.5rem;
+			text-align: center;
+			display:flex;
+			justify-content: center;
+			justify-items: center;
+		}
+		#aboutpageh2{
+			font-size: 2rem;
+		}
+		#aboutpagep1{
+			font-size: 1rem;
+			width:100%;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			justify-items: center;
+		}
+		
+		
+				#missiondiv {
+					display: flex;
+						flex-direction: row;
+						align-items: flex-start;
+						justify-content: flex-start;
+						padding: 0 1rem;
+						width: 100%;
+						/* ✅ fills entire width */
+						box-sizing: border-box;
+						/* ✅ ensures padding doesn't shrink width */
+				}
+		
+				#missionimage {
+					height: 150px;
+					width: 150px;
+					padding-right: 5px;
+					margin: 0;
+					flex-shrink: 0;
+				}
+		
+				#aboutpagep2 {
+					font-size: 1rem;
+					max-width: 250px;
+					margin-left: 1.5rem;
+					text-align: left;
+					line-height: 1.4;
+					display: flex;
+					width: calc(100% - 100px - 1rem);
+				
+						
+				}	   }
+		
+		#aboutpageh3 {
+		font-size: 2rem;	
+		padding-top:90px;
+	      }
+	      #visiondiv{
+		   
+		   display:flex;
+		   flex-direction:row;
+	      }
+	      
+		      #vissionimage {
+		      	height: 150px;
+		      	width: 150px;
+		      	padding-left: 20px;
+		      	display: flex;
+		      	margin-left: .3rem;
+		      	margin-bottom: 0;
+		      }
+	
+		      #aboutpagep3 {
+		      	font-size: 1rem;
+		      	display: flex;
+		      	width: 100%;
+		      
+		      	}
+		
+		#aboutpageh3{
+			margin-top:-15rem;
+		}
+		
+		#aboutpageh4{
+			font-size:2rem;
+		}
+		#aboutpagep4 {
+			font-size: 1rem;
+			display: flex;
+			width: 100%;
+			display: flex; }
+			
+	
+	
+/*Service Section*/
+
+	
+
